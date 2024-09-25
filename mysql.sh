@@ -47,3 +47,5 @@ VALIDATE $? "Started MYSQL sever"
 
 mysql_secure_installation --set-root-pass ExpenseApp@1 &>>LOG_FILE
 VALIDATE $? "Setting UP root password"
+
+#Now check
